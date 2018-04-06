@@ -1,0 +1,14 @@
+[server]
+freeipa01.corp.justin-tech.com ansible_host=10.0.40.20
+
+[replica]
+freeipa02.corp.justin-tech.com ansible_host=10.0.40.21
+
+[client]
+testdb01.corp.justin-tech.com ansible_host=10.0.40.217
+testdb02.corp.justin-tech.com ansible_host=10.0.40.218
+testdb03.corp.justin-tech.com ansible_host=10.0.40.219
+postgresdb01.corp.justin-tech.com ansible_host=10.0.40.60
+postgresdb02.corp.justin-tech.com ansible_host=10.0.40.61
+keycloak01.corp.justin-tech.com
+mediawiki01.corp.justin-tech.com ansible_host=10.0.40.213
